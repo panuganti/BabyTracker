@@ -10,12 +10,6 @@ import { AngularFireAuth } from 'angularfire2/auth';
 import { FirebaseProvider } from '../providers/firebase/firebase';
 
 export const firebaseConfig = {
-    apiKey: "AIzaSyBs2weVCgjuOHAC5zmMOX7gk30XtRtIT1k",
-    authDomain: "babytracker-a03e3.firebaseapp.com",
-    databaseURL: "https://babytracker-a03e3.firebaseio.com",
-    projectId: "babytracker-a03e3",
-    storageBucket: "babytracker-a03e3.appspot.com",
-    messagingSenderId: "811005419180"
   };
 
 enableProdMode();
