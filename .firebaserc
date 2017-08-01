@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "panuganti-swara"
+    "default": "panuganti-swara",
+    "babytracker": "babytracker-a03e3"
   }
 }
