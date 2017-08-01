@@ -1,40 +1,80 @@
 {
-  "name": "BabyTracker",
-  "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
-  "private": true,
-  "scripts": {
-    "clean": "ionic-app-scripts clean",
-    "build": "ionic-app-scripts build",
-    "lint": "ionic-app-scripts lint",
-    "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
-  },
-  "dependencies": {
-    "@angular/common": "4.1.3",
-    "@angular/compiler": "4.1.3",
-    "@angular/compiler-cli": "4.1.3",
-    "@angular/core": "4.1.3",
-    "@angular/forms": "4.1.3",
-    "@angular/http": "4.1.3",
-    "@angular/platform-browser": "4.1.3",
-    "@angular/platform-browser-dynamic": "4.1.3",
-    "@ionic-native/core": "3.12.1",
-    "@ionic-native/splash-screen": "3.12.1",
-    "@ionic-native/status-bar": "3.12.1",
-    "@ionic/storage": "2.0.1",
-    "ionic-angular": "3.6.0",
-    "ionicons": "3.0.0",
-    "rxjs": "5.4.0",
-    "sw-toolbox": "3.6.0",
-    "zone.js": "0.8.12"
-  },
-  "devDependencies": {
-    "@ionic/app-scripts": "2.1.3",
-    "@ionic/cli-plugin-ionic-angular": "1.4.0",
-    "ionic": "3.6.0",
-    "typescript": "2.3.4"
-  },
-  "description": "An Ionic project"
+    "name": "BabyTracker",
+    "version": "0.0.1",
+    "author": "Rajkiran Panuganti",
+    "homepage": "http://www.babytracker.com/",
+    "private": true,
+    "scripts": {
+        "clean": "ionic-app-scripts clean",
+        "build": "ionic-app-scripts build",
+        "lint": "ionic-app-scripts lint",
+        "ionic:build": "ionic-app-scripts build",
+        "ionic:serve": "ionic-app-scripts serve"
+    },
+    "dependencies": {
+        "@angular/common": "4.1.3",
+        "@angular/compiler": "4.1.3",
+        "@angular/compiler-cli": "4.1.3",
+        "@angular/core": "4.1.3",
+        "@angular/forms": "4.1.3",
+        "@angular/http": "4.1.3",
+        "@angular/platform-browser": "4.1.3",
+        "@angular/platform-browser-dynamic": "4.1.3",
+        "@ionic-native/background-mode": "^4.1.0",
+        "@ionic-native/camera": "^4.1.0",
+        "@ionic-native/code-push": "^4.1.0",
+        "@ionic-native/contacts": "^4.1.0",
+        "@ionic-native/core": "^4.1.0",
+        "@ionic-native/image-picker": "^4.1.0",
+        "@ionic-native/local-notifications": "^4.1.0",
+        "@ionic-native/sms": "^4.1.0",
+        "@ionic-native/social-sharing": "^4.1.0",
+        "@ionic-native/splash-screen": "^4.1.0",
+        "@ionic-native/status-bar": "^4.1.0",
+        "@ionic/storage": "2.0.1",
+        "angular2-moment": "1.6.0",
+        "cordova-plugin-background-mode": "^0.7.2",
+        "cordova-plugin-camera": "^2.4.1",
+        "cordova-plugin-code-push": "^1.9.5-beta",
+        "cordova-plugin-contacts": "^2.3.1",
+        "cordova-plugin-telerik-imagepicker": "^2.1.8",
+        "cordova-plugin-x-socialsharing": "^5.1.8",
+        "cordova-sms-plugin": "^0.1.11",
+        "de.appplant.cordova.plugin.local-notification": "^0.8.5",
+        "ionic-angular": "3.6.0",
+        "ionicons": "3.0.0",
+        "moment": "2.18.1",
+        "rxjs": "5.4.0",
+        "sw-toolbox": "3.6.0",
+        "zone.js": "0.8.12"
+    },
+    "devDependencies": {
+        "@ionic/app-scripts": "2.1.3",
+        "@ionic/cli-plugin-cordova": "1.5.0",
+        "@ionic/cli-plugin-ionic-angular": "1.4.0",
+        "@types/colorbrewer": "1.0.29",
+        "@types/d3": "4.10.0",
+        "@types/request": "2.0.0",
+        "angular2-moment": "^1.3.3",
+        "colorbrewer": "^1.0.0",
+        "d3": "4.10.0",
+        "ionic": "3.6.0",
+        "linq": "3.0.8",
+        "typescript": "2.3.4"
+    },
+    "description": "Baby Tracker",
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-background-mode": {},
+            "cordova-plugin-camera": {},
+            "cordova-plugin-code-push": {},
+            "cordova-plugin-contacts": {},
+            "de.appplant.cordova.plugin.local-notification": {},
+            "cordova-sms-plugin": {},
+            "cordova-plugin-x-socialsharing": {},
+            "com.synconset.imagepicker": {
+                "PHOTO_LIBRARY_USAGE_DESCRIPTION": "Select Pictures"
+            }
+        }
+    }
 }
