@@ -1,18 +1,35 @@
-<!--
-  Generated template for the SettingsPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
-<ion-header>
-
-  <ion-navbar>
-    <ion-title>settings</ion-title>
+<ion-header >
+  <ion-navbar color="yellow">
+    <ion-title>Settings</ion-title>
   </ion-navbar>
-
 </ion-header>
-
-
 <ion-content padding>
-
+  <ion-list no-lines>
+    <ion-item>
+      <ion-label color="purple"> PROFILE </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Name</ion-label>
+      <ion-input type="text" [(ngModel)]="name" (ionChange)="changed()"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Birthday</ion-label>
+      <ion-datetime displayFormat="" pickerFormat="" [(ngModel)]="birthday" (ionChange)="changed()"></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Email</ion-label>
+      <ion-input type="text" [(ngModel)]="email" (ionChange)="changed()"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating></ion-label>
+      <ion-input type="password" [(ngModel)]="password" (ionChange)="changed()"></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-list> 
+    <ion-label> PREFERENCES </ion-label>
+    <ion-item>
+      <ion-label>Notifications</ion-label>
+      <ion-toggle [(ngModel)]="notifications" (ionChange)="changed()" ></ion-toggle>
+    </ion-item>
+  </ion-list>
 </ion-content>

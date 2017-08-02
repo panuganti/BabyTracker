@@ -10,7 +10,7 @@ import { AngularFireAuth } from 'angularfire2/auth';
 import { FirebaseProvider } from '../providers/firebase/firebase';
 
 export const firebaseConfig = {
-  };
+};
 
 enableProdMode();
 
