@@ -93,4 +93,5 @@
     <plugin name="com.synconset.imagepicker" spec="~2.1.8">
         <variable name="PHOTO_LIBRARY_USAGE_DESCRIPTION" value="Select Pictures" />
     </plugin>
+    <plugin name="cordova-plugin-nativeaudio" spec="^3.0.9" />
 </widget>
