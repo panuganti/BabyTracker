@@ -27,6 +27,7 @@
         "@ionic-native/core": "^4.1.0",
         "@ionic-native/image-picker": "^4.1.0",
         "@ionic-native/local-notifications": "^4.1.0",
+        "@ionic-native/native-audio": "^4.1.0",
         "@ionic-native/sms": "^4.1.0",
         "@ionic-native/social-sharing": "^4.1.0",
         "@ionic-native/splash-screen": "^4.1.0",
@@ -38,6 +39,7 @@
         "cordova-plugin-camera": "^2.4.1",
         "cordova-plugin-code-push": "^1.9.5-beta",
         "cordova-plugin-contacts": "^2.3.1",
+        "cordova-plugin-nativeaudio": "^3.0.9",
         "cordova-plugin-telerik-imagepicker": "^2.1.8",
         "cordova-plugin-x-socialsharing": "^5.1.8",
         "cordova-sms-plugin": "^0.1.11",
@@ -76,7 +78,8 @@
             "cordova-plugin-x-socialsharing": {},
             "com.synconset.imagepicker": {
                 "PHOTO_LIBRARY_USAGE_DESCRIPTION": "Select Pictures"
-            }
+            },
+            "cordova-plugin-nativeaudio": {}
         }
     }
 }
